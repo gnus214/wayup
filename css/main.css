@@ -4,8 +4,16 @@
     box-sizing: border-box;
 }
 .forma {
+    width: 250px;
+    height: 200px;
     display: flex;
+    flex-direction: column;
 }
 .forma-zakaza {
     display: flex;
+    flex-direction: column;
+}
+.form {
+    position: relative;
+    margin-left: 300px;
 }

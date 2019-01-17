@@ -10,7 +10,7 @@
     <link rel="icon" href="#" type="image/x-icon">
     <link rel="shortcut icon" href="#" type="image/x-icon">
     <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
-    <script src="main.js"></script>
+    <script src="js/main.js"></script>
 </head>
 <body>
     <header>
@@ -19,10 +19,10 @@
         </div>
         <nav>
             <ul class="top-menu">
-                <li><a href="#">наши услуги</a></li>
-                <li><a href="#">преимущества</a></li>
-                <li><a href="#">схема работы</a></li>
-                <li><a href="#">контакты</a></li>
+                <li class="item"><a href="#">наши услуги</a></li>
+                <li class="item"><a href="#">преимущества</a></li>
+                <li class="item"><a href="#">схема работы</a></li>
+                <li class="item"><a href="#">контакты</a></li>
             </ul>
         </nav>
         <div class="zak-zvon" a href="#">
@@ -36,7 +36,7 @@
         <form class="forma" action="sender.php" method="POST">
             <p class="forma-paragraf1">расчитать стоимость доставки</p>
             <div class="forma-zakaza">
-               <input type="text" placeholder="ИМЯ">
+               <input type="text" placeholder="ИМЯ" required>
                <input type="tel" placeholder="телефон">
                <button type="submit">заказать расчёт!</button>
             </div>
