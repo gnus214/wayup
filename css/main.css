@@ -4,16 +4,16 @@
     box-sizing: border-box;
 }
 .forma {
-    width: 250px;
+    width: 500px;
     height: 200px;
     display: flex;
     flex-direction: column;
+    position: relative;
+    margin-left: 470px;
+    background-color: rgb(54, 54, 61);
+    justify-content: space-evenly;
 }
 .forma-zakaza {
     display: flex;
-    flex-direction: column;
-}
-.form {
-    position: relative;
-    margin-left: 300px;
+    flex-direction: row;
 }
