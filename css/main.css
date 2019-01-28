@@ -1,4 +1,9 @@
+.top-menu{
+    list-style: none;
+}
+/* menu end */
 
+/* forma */
 .forma {
     display: flex;
     flex-direction: column;
@@ -27,6 +32,7 @@
 }
 
 .forma__zakaza__botton {
+    display: block;
     background-color: rgb(249, 123, 0);
     height: 55px;
     margin: 10px;
@@ -49,4 +55,6 @@
 }
 .forma__zakaza__botton:hover {
     transform: scale(1.1);
+    transition: transform 333ms;
 }
+/* forma end */
