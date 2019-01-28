@@ -1,7 +1,15 @@
-.top-menu{
-    list-style: none;
+.top__menu__item >a {
+    text-decoration: none;
 }
-/* menu end */
+.top__menu {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+.top__menu__item {
+    margin: 20px;
+}
+/* menu end *
 
 /* forma */
 .forma {
