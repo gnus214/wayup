@@ -8,8 +8,9 @@
 }
 .top__menu__item {
     margin: 20px;
+    border: 1px solid rgb(78, 46, 196);
 }
-/* menu end *
+/* menu end */
 
 /* forma */
 .forma {
